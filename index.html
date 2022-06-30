@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link type="text/css" rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+      <div id="container">
+        <h1 id="title">Survey Title</h1>
+        <p id="description">Thanks for taking the time to fill this questionaire out.</p>
+        <form id="survey-form">
+
+          <fieldset id="fieldset">
+            <label id="name-label">Name<input id="name" type="text" placeholder="First  Last" required></input required></label>
+            <label id="number-label">Age (optional)<input placeholder="18" id="number" type="number" size="3" min="18" max="120"></input></label>
+            <label id="email-label">Email<input type="email" id="email" placeholder="example@gmail.com" required></input></label>
+            <label></label>
+       
+              <label for="dropdown">Select your gender.
+              <select name="dropdown"id="dropdown" size="1">
+                <option value="0">select </option>
+                <option value="1">male </option>
+                <option value="2">female </option>
+                <option value="3">other</option>
+                 </select>
+                
+        </fieldset>
+        
+        <fieldset id="fieldset">           <label> Please pick one option below that best describes you below
+                 <label id="radiolabel" for="radiobutton"> <input type="radio" name="radiobutton" value="1" /> Introvert
+                 
+                   <label id="radiolabel" for="radiobutton"> <input type="radio" name="radiobutton" value="2" />Extrovert</label>
+              </fieldset>
+
+              <fieldset id="fieldset">
+                <label> Please select all that apply</label>
+                <label id="radiolabel"><input type="checkbox" value="1"></input> I like to work in a team</label>
+
+                <label id="radiolabel"><input type="checkbox" value="2"></input> I like to work alone</label>
+                  <label id="radiolabel"><input type="checkbox" value="1"></input> I like to be the leader of the team</label>
+
+                <labe id="radiolabel"l><input type="checkbox" value="2"></input> I like to work alone in upper-managment</label>
+                </fieldset>
+                <fieldset id="fieldset">
+                  <label>Please describe some of your favorite hobbies/activites to do in your free time.
+                  <textarea>I like to...</textarea>
+
+
+
+              <input id="submit" type="submit">
+
+              </fieldset>
+        </form>
+        </div>
+      </body>
+
+        </html>
